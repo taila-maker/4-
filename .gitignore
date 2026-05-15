@@ -1,0 +1,44 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+docs
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+log
+.idea/
+.vscode
+.DS_Store
+**/*.log*
+**/debug
+
+#vim
+*~
+*.un~
+*.*[~]
+*.swp
+#build target
+cmd/main
+main
+*.pyc
+*.tar.gz
+go.sum
+.fsw.yml
+
+wowserv.linux-amd64
+
+conf/dev/*
+vendor
+.air.toml
+docs/tech/context/*
+docs/tech/go-code-review/*
+docs/tech/prd-story/*
+docs/tech/tech-design/*
+docs/tech/test-case-generator/*
+.qoder
+.claude
